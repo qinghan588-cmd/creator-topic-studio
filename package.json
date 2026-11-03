@@ -1,0 +1,14 @@
+{
+  "name": "creator-topic-studio",
+  "version": "1.0.0",
+  "description": "自媒体选题、创作简报与发布排期工作台",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
